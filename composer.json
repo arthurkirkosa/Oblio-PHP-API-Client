@@ -1,5 +1,5 @@
 {
-  "name": "mrbig00/oblio-php-client",
+  "name": "arthurkirkosa/oblio-php-client",
   "description": "Oblio PHP API Client",
   "type": "library",
   "license": "MIT",
@@ -16,10 +16,10 @@
   },
   "require": {
     "php": ">=7.2.0",
-    "guzzlehttp/guzzle": "~6.0",
+    "guzzlehttp/guzzle": "^6.0",
     "kamermans/guzzle-oauth2-subscriber": "~1.0",
     "guzzlehttp/guzzle-services": "^1.1",
-    "gimler/guzzle-description-loader": "^0.0.4",
+    "kezor/guzzle-description-loader": "^0.0.6",
     "ext-json": "*"
   }
 }
