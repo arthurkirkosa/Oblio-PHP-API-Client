@@ -15,11 +15,18 @@
     }
   },
   "require": {
-    "php": ">=7.2.0",
-    "guzzlehttp/guzzle": "^6.0",
-    "kamermans/guzzle-oauth2-subscriber": "~1.0",
-    "guzzlehttp/guzzle-services": "^1.1",
-    "kezor/guzzle-description-loader": "^0.0.6",
-    "ext-json": "*"
-  }
+    "php": "^7.2.0|^8.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.0",
+    "kamermans/guzzle-oauth2-subscriber": "^1.0",
+    "guzzlehttp/guzzle-services": "^1.2",
+    "kezor/guzzle-description-loader": "^0.0.6"
+  },
+  "config": {
+      "optimize-autoloader": true,
+      "preferred-install": "dist",
+      "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
